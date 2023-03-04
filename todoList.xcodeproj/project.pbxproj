@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BB0AC6C129975D22002CAAA4 /* Boolean+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0AC6C029975D22002CAAA4 /* Boolean+Ext.swift */; };
+		BB0AC6C329A0E307002CAAA4 /* AddTodoModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0AC6C229A0E307002CAAA4 /* AddTodoModal.storyboard */; };
+		BB0AC6C529A0E346002CAAA4 /* AddTodoModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0AC6C429A0E346002CAAA4 /* AddTodoModalVC.swift */; };
+		BB0AC6CB29A16324002CAAA4 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0AC6CA29A16324002CAAA4 /* TodoCell.swift */; };
 		BB1AE89A2997340C001EA3AD /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AE8992997340C001EA3AD /* TodoViewModel.swift */; };
 		BB1AE89D29973586001EA3AD /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AE89C29973586001EA3AD /* String+Ext.swift */; };
 		BB1AE89F29973E3C001EA3AD /* CustomButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AE89E29973E3C001EA3AD /* CustomButton+Ext.swift */; };
@@ -18,10 +21,15 @@
 		BB551D74299142D2000EECF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB551D73299142D2000EECF3 /* Assets.xcassets */; };
 		BB551D77299142D2000EECF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB551D75299142D2000EECF3 /* LaunchScreen.storyboard */; };
 		BB551D822991432A000EECF3 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB551D812991432A000EECF3 /* Todo.swift */; };
+		BBC1B34729A1C38B00068C07 /* TodoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B34629A1C38B00068C07 /* TodoDetailVC.swift */; };
+		BBC1B34929A1C3BA00068C07 /* TodoDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC1B34829A1C3BA00068C07 /* TodoDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB0AC6C029975D22002CAAA4 /* Boolean+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boolean+Ext.swift"; sourceTree = "<group>"; };
+		BB0AC6C229A0E307002CAAA4 /* AddTodoModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTodoModal.storyboard; sourceTree = "<group>"; };
+		BB0AC6C429A0E346002CAAA4 /* AddTodoModalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoModalVC.swift; sourceTree = "<group>"; };
+		BB0AC6CA29A16324002CAAA4 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		BB1AE8992997340C001EA3AD /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		BB1AE89C29973586001EA3AD /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		BB1AE89E29973E3C001EA3AD /* CustomButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomButton+Ext.swift"; sourceTree = "<group>"; };
@@ -34,6 +42,8 @@
 		BB551D76299142D2000EECF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB551D78299142D2000EECF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB551D812991432A000EECF3 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		BBC1B34629A1C38B00068C07 /* TodoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailVC.swift; sourceTree = "<group>"; };
+		BBC1B34829A1C3BA00068C07 /* TodoDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TodoDetail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,8 @@
 				BB551D6A299142D1000EECF3 /* AppDelegate.swift */,
 				BB551D6C299142D1000EECF3 /* SceneDelegate.swift */,
 				BB551D70299142D1000EECF3 /* Main.storyboard */,
+				BBC1B34829A1C3BA00068C07 /* TodoDetail.storyboard */,
+				BB0AC6C229A0E307002CAAA4 /* AddTodoModal.storyboard */,
 				BB551D73299142D2000EECF3 /* Assets.xcassets */,
 				BB551D75299142D2000EECF3 /* LaunchScreen.storyboard */,
 				BB551D78299142D2000EECF3 /* Info.plist */,
@@ -110,6 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				BB551D6E299142D1000EECF3 /* ViewController.swift */,
+				BB0AC6C429A0E346002CAAA4 /* AddTodoModalVC.swift */,
+				BB0AC6CA29A16324002CAAA4 /* TodoCell.swift */,
+				BBC1B34629A1C38B00068C07 /* TodoDetailVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,8 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC1B34929A1C3BA00068C07 /* TodoDetail.storyboard in Resources */,
 				BB551D77299142D2000EECF3 /* LaunchScreen.storyboard in Resources */,
 				BB551D74299142D2000EECF3 /* Assets.xcassets in Resources */,
+				BB0AC6C329A0E307002CAAA4 /* AddTodoModal.storyboard in Resources */,
 				BB551D72299142D1000EECF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,10 +205,13 @@
 				BB0AC6C129975D22002CAAA4 /* Boolean+Ext.swift in Sources */,
 				BB1AE89D29973586001EA3AD /* String+Ext.swift in Sources */,
 				BB551D6F299142D1000EECF3 /* ViewController.swift in Sources */,
+				BB0AC6CB29A16324002CAAA4 /* TodoCell.swift in Sources */,
 				BB551D6B299142D1000EECF3 /* AppDelegate.swift in Sources */,
 				BB551D6D299142D1000EECF3 /* SceneDelegate.swift in Sources */,
+				BBC1B34729A1C38B00068C07 /* TodoDetailVC.swift in Sources */,
 				BB1AE89F29973E3C001EA3AD /* CustomButton+Ext.swift in Sources */,
 				BB551D822991432A000EECF3 /* Todo.swift in Sources */,
+				BB0AC6C529A0E346002CAAA4 /* AddTodoModalVC.swift in Sources */,
 				BB1AE89A2997340C001EA3AD /* TodoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

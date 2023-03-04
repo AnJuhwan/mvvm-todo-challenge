@@ -10,7 +10,6 @@ import Foundation
 extension String {
     var isValue : Bool {
         let valueLength = self != "" ? true : false
-        print(self)
         return valueLength
     }
 }

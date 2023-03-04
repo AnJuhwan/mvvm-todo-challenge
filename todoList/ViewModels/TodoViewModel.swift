@@ -21,7 +21,6 @@ class TodoViewModel : NSObject {
     var addTodo : Todo = Todo(id:0,todo:"",done:false) {
         didSet {
             todoList.append(addTodo)
-            print(todoList)
         }
     }
     
